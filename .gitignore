@@ -18,3 +18,5 @@ tools/statistical_ensemble_test/
 
 # ignore for the merge to master and orphaning of the gh-pages branch
 doc/build
+
+.ipynb_checkpoints
