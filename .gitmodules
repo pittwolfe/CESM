@@ -77,10 +77,10 @@
 
 [submodule "mom"]
         path = components/mom
-        url = https://github.com/ESCOMP/MOM_interface
+        url = git@github.com:pittwolfe/MOM_interface.git 
         fxDONOTUSEurl = https://github.com/ESCOMP/MOM_interface
         fxrequired = ToplevelRequired
-        fxtag = mi_251121
+        fxtag = mi_251121_001
 
 [submodule "cism"]
         path = components/cism
