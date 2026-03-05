@@ -28,16 +28,16 @@
 
 [submodule "ccs_config"]
         path = ccs_config
-        url = https://github.com/ESMCI/ccs_config_cesm.git
+        url = git@github.com:pittwolfe/ccs_config_cesm.git
         fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
-        fxtag = ccs_config_cesm1.0.65
+        fxtag = ccs_config_cesm1.0.65_002
         fxrequired = ToplevelRequired
 
 [submodule "cime"]
         path = cime
         url = https://github.com/ESMCI/cime
         fxDONOTUSEurl = https://github.com/ESMCI/cime
-	fxtag = cime6.1.144
+    	fxtag = cime6.1.144
         fxrequired = ToplevelRequired
 
 [submodule "fms"]
