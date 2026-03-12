@@ -16,3 +16,6 @@ share/
 
 # ignore for the merge to master and orphaning of the gh-pages branch
 doc/build
+
+# checkpoints
+.ipynb_checkpoints
