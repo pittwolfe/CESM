@@ -75,6 +75,13 @@
         fxrequired = ToplevelRequired
         fxtag = cesm3_cice6_6_1_6
 
+[submodule "cice5"]
+	path = components/cice5
+	url = https://github.com/pittwolfe/CESM_CICE5
+        fxDONOTUSEurl = https://github.com/ESCOMP/CESM_CICE5 
+        fxrequired = ToplevelRequired
+        fxtag = cice5_20220204
+
 [submodule "mom"]
         path = components/mom
         url = git@github.com:pittwolfe/MOM_interface.git 
@@ -87,7 +94,7 @@
         url = https://github.com/ESCOMP/cism-wrapper.git
         fxDONOTUSEurl = https://github.com/ESCOMP/cism-wrapper.git
         fxtag = cismwrap_2_2_011
-        fxrequired = ToplevelRequired
+        fxrequired = ToplevelOptional 
 
 [submodule "cdeps"]
         path = components/cdeps
@@ -107,7 +114,7 @@
         path = components/rtm
         url = https://github.com/ESCOMP/RTM
         fxDONOTUSEurl = https://github.com/ESCOMP/RTM
-        fxrequired = ToplevelRequired
+        fxrequired = ToplevelOptional 
         fxtag = rtm1_0_89
 
 [submodule "ww3"]
@@ -115,20 +122,20 @@
         url = https://github.com/ESCOMP/WW3_interface
         fxDONOTUSEurl = https://github.com/ESCOMP/WW3_interface
         fxtag = main_0.0.18
-        fxrequired = ToplevelRequired
+        fxrequired = ToplevelOptional 
 
 [submodule "mizuroute"]
         path = components/mizuroute
         url = https://github.com/ESCOMP/mizuRoute
         fxDONOTUSEurl = https://github.com/ESCOMP/mizuRoute
-        fxrequired = ToplevelRequired
+        fxrequired = ToplevelOptional
         fxtag = v3.0.1
 
 [submodule "mosart"]
         path = components/mosart
         url = https://github.com/ESCOMP/MOSART
         fxDONOTUSEurl = https://github.com/ESCOMP/MOSART
-        fxrequired = ToplevelRequired
+        fxrequired = ToplevelOptional 
         fxtag = mosart1.1.12
 
 [submodule "parallelio"]
