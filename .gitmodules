@@ -56,7 +56,7 @@
 
 [submodule "cam"]
         path = components/cam
-        url = https://www.github.com/ESCOMP/CAM
+        url = git@github.com:pittwolfe/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
         fxtag = cam6_4_133
         fxrequired = ToplevelRequired
