@@ -77,10 +77,10 @@
 
 [submodule "cice5"]
 	path = components/cice5
-	url = https://github.com/pittwolfe/CESM_CICE5
+	url = git@github.com:pittwolfe/CESM_CICE5 
         fxDONOTUSEurl = https://github.com/ESCOMP/CESM_CICE5 
         fxrequired = ToplevelRequired
-        fxtag = cice5_20220204
+        fxtag = pw/cice5_20220204_001 
 
 [submodule "mom"]
         path = components/mom
