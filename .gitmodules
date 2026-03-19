@@ -80,7 +80,7 @@
 	url = git@github.com:pittwolfe/CESM_CICE5 
         fxDONOTUSEurl = https://github.com/ESCOMP/CESM_CICE5 
         fxrequired = ToplevelRequired
-        fxtag = pw/cice5_20220204_001 
+        fxtag = pw/cice5_20220204_260319 
 
 [submodule "mom"]
         path = components/mom
