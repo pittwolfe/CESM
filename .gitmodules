@@ -58,21 +58,21 @@
         path = components/cam
         url = git@github.com:pittwolfe/CAM
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
-        fxtag = cam6_4_133
+        fxtag = pw/cam6_4_133_260319
         fxrequired = ToplevelRequired
 
 [submodule "clm"]
         path = components/clm
-        url = https://github.com/ESCOMP/CTSM
+        url = git@github.com:pittwolfe/CTSM 
         fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
         fxrequired = ToplevelRequired
-        fxtag = alpha-ctsm5.4.CMIP7.09.ctsm5.3.068
+        fxtag = pw/alpha-ctsm5.4.CMIP7.09.ctsm5.3.068_260319
 
 [submodule "cice"]
         path = components/cice
         url = https://github.com/ESCOMP/CESM_CICE
         fxDONOTUSEurl = https://github.com/ESCOMP/CESM_CICE
-        fxrequired = ToplevelRequired
+        fxrequired = ToplevelOptional
         fxtag = cesm3_cice6_6_1_6
 
 [submodule "cice5"]
