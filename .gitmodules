@@ -66,7 +66,7 @@
         url = git@github.com:pittwolfe/CTSM 
         fxDONOTUSEurl = https://github.com/ESCOMP/CTSM
         fxrequired = ToplevelRequired
-        fxtag = pw/alpha-ctsm5.4.CMIP7.09.ctsm5.3.068_260319
+        fxtag = pw/ctsm5.2.029_260324
 
 [submodule "cice"]
         path = components/cice
