@@ -31,6 +31,8 @@
 [submodule "cam"]
         path = components/cam
         url = git@github.com:pittwolfe/CAM
+        branch = pw/cam6_4_133
+        update = merge
         fxDONOTUSEurl = https://www.github.com/ESCOMP/CAM
         fxtag = pw/cam6_4_133_260319
         fxrequired = ToplevelRequired
