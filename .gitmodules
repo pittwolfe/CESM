@@ -64,7 +64,9 @@
 
 [submodule "mom"]
         path = components/mom
-        url = git@github.com:pittwolfe/MOM_interface.git 
+        url = git@github.com:pittwolfe/MOM_interface.git
+        branch = pw/mi_251121
+        update = merge
         fxDONOTUSEurl = https://github.com/ESCOMP/MOM_interface
         fxrequired = ToplevelRequired
         fxtag = mi_251121_001
