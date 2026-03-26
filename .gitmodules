@@ -1,6 +1,8 @@
 [submodule "ccs_config"]
         path = ccs_config
         url = git@github.com:pittwolfe/ccs_config_cesm.git
+        branch = pw/ccs_config_cesm1.0.65
+        update = merge
         fxDONOTUSEurl = https://github.com/ESMCI/ccs_config_cesm.git
         fxtag = ccs_config_cesm1.0.65_002
         fxrequired = ToplevelRequired
