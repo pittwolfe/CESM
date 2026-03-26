@@ -54,8 +54,10 @@
         fxtag = cesm3_cice6_6_1_6
 
 [submodule "cice5"]
-	path = components/cice5
-	url = git@github.com:pittwolfe/CESM_CICE5 
+        path = components/cice5
+        url = git@github.com:pittwolfe/CESM_CICE5
+        branch = pw/cice5_20220204
+        update = merge
         fxDONOTUSEurl = https://github.com/ESCOMP/CESM_CICE5 
         fxrequired = ToplevelRequired
         fxtag = pw/cice5_20220204_260319 
