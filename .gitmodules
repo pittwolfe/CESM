@@ -87,7 +87,7 @@
         url = git@github.com:pittwolfe/MOM_interface.git 
         fxDONOTUSEurl = https://github.com/ESCOMP/MOM_interface
         fxrequired = ToplevelRequired
-        fxtag = mi_251121_001
+        fxtag = pw/mi_251121_260330
 
 [submodule "cism"]
         path = components/cism
